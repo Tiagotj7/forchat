@@ -38,7 +38,7 @@ h1{
 p{
     text-align: end;
     text-align: center;
-    padding: 200px;
+    padding: 50px;
 }
 
 input[type="text"]  {
@@ -62,4 +62,5 @@ label{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
