@@ -30,15 +30,13 @@ h1{
 }
 
 .caixa-texto{
-
-    align-items: flex-end;
     
 }
 
 p{
-    text-align: end;
+
     text-align: center;
-    padding: 50px;
+    padding: 10px;
 }
 
 input[type="text"]  {
@@ -48,7 +46,6 @@ input[type="text"]  {
     box-sizing: border-box;
     border: 1px solid green;
     border-radius: 20px;
-
 }
 
 label{
@@ -59,8 +56,10 @@ label{
 .botao-enviar{
 
     background-color: white;
+    color: black;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
