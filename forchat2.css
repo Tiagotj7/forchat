@@ -26,7 +26,7 @@ h1{
 
 .conteudo{
 
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 
 .caixa-texto{
@@ -39,4 +39,19 @@ p{
     text-align: end;
     text-align: center;
     padding: 200px;
+}
+
+input[type="text"]  {
+
+    width: 100%;
+    padding: 50%;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: 20px;
+
+}
+
+label{
+
+    font-size: 20px;
 }
