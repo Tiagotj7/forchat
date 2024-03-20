@@ -32,4 +32,11 @@ h1{
 .caixa-texto{
 
     align-items: flex-end;
+    
+}
+
+p{
+    text-align: end;
+    text-align: center;
+    padding: 200px;
 }
