@@ -4,8 +4,28 @@ function enviarMensagem(){
 
     var mensagem = document.getElementById9("text").value;
 
-    console.log("Mensagem enviada: " + mensagem);
+    if (Mensagem.trim() !== "") {
 
-    // Aqui você pode adicionar a lógica para enviar a mensagem para o servidor ou fazer o que desejar com ela
+        adicionarComentario(mensagem);
+
+        limparCaixaTexto();
+    }
+}
+
+function adicionarComentario(mensagem){
+
+    var comentariosDiv = document.getElementById("Comentarios");
+
+    var novoComentario = document.getElementById("p");
+
+    novoComentario.textContent = mensagem;
+
+    comentariosDiv.appendChild(novoComentario);
+
+}
+
+function limparCaixaTexto(){
+
+    document.getElementById("text").value = " ";
 
 }
