@@ -2,9 +2,9 @@ alert('Olá,Seja bem vindo!!!')
 
 function enviarMensagem(){
 
-    var mensagem = document.getElementById9("text").value;
+    var mensagem = document.getElementById("text").value;
 
-    if (Mensagem.trim() !== "") {
+    if (mensagem.trim() !== "") {
 
         adicionarComentario(mensagem);
 
@@ -14,7 +14,7 @@ function enviarMensagem(){
 
 function adicionarComentario(mensagem){
 
-    var comentariosDiv = document.getElementById("Comentarios");
+    var comentariosDiv = document.getElementById("comentarios");
 
     var novoComentario = document.getElementById("p");
 
