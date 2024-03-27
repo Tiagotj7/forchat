@@ -38,11 +38,12 @@ p{
 input[type="text"]  {
 
     width: 100%;
-    padding: 10%;
+    height: 40px;
+    padding: 10px;
     box-sizing: border-box;
     border: 1px solid green;
     border-radius: 20px;
-   text-align: right;
+   text-align: left;
 }
 
 label{
