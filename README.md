@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=S, initial-scale=1.0">
- 
+    <title>ForChat</title>
+    <link rel="stylesheet" href="forchat2.css">
+    <script src="forchat3.js"></script>
 </head>
 <body>
     <header> <h1>ForChan</h1> </header>
