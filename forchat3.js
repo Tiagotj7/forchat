@@ -45,3 +45,12 @@ app.listen(port, () => {
 });*/
 
 //
+
+function enviarMensagem() {
+    var mensagem = document.getElementById("texto").value;
+
+    if (mensagem.trim() !== "") {
+        adicionarComentario(mensagem);
+        limparCaixaTexto();
+    }
+}
