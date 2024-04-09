@@ -1,6 +1,3 @@
-function enviarMensagem(){var e=document.getElementById("text").value;""!==e.trim()&&(adicionarComentario(e),limparCaixaTexto())}function adicionarComentario(e){var t=document.getElementById("comentarios"),n=document.getElementById("p");n.textContent=e,t.appendChild(n)}function limparCaixaTexto(){document.getElementById("text").value=" "}alert("Olá,Seja bem vindo!!!");
-
-/*
 alert('Olá,Seja bem vindo!!!')
 
 function enviarMensagem(){
