@@ -50,10 +50,12 @@ padding: 10px;
 min-height: 40px;  /* Altura mínima da caixa de texto */
 max-height: 120px;
 box-sizing: border-box;
-border: 1px solid green;
+border: 1px solid transparent;
 border-radius: 20px;
 overflow: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
 margin-top: 400px;
+background-color: transparent;
+color: white;
 
 }
 
@@ -108,14 +110,14 @@ function displayMessage(messages) {
 
 
 
-    <header>Sala I</header>
+    <header>Room I</header>
        
     <div class="login-container">
 
         <div id="messages"></div>
             <div>
-                    <input type="text" id="messagesInput" placeholder="Digite sua mensagem">
-                            <button id="SendButton">Enviar</button>
+                    <input type="text" id="messagesInput" placeholder="Type Here">
+                            <button id="SendButton">Send</button>
             </div>
     </div>
 
