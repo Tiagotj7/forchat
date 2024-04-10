@@ -8,23 +8,125 @@
     <script src="forchat3.js"></script>
 </head>
 <body>
+
+    <style>
+
+body{
+
+background-image: url(https://th.bing.com/th/id/R.e95e57560b2ae4fef387aa1c9d6ad04a?rik=prHbcVn7OMVm%2bQ&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2017%2f12%2f10%2fbest-4k-wallpapers_11063030_312.jpg&ehk=koeZlH8kmWj5a0BQNBqEFhYUDbZOM9e5Gdm%2fTRflJ8Q%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+color: white;
+}
+
+html{
+margin: 0;
+padding: 0%;
+height: 100%;
+}
+
+h1{
+text-align: center;
+font-size: 35px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.conteudo{
+
+margin-bottom: 10px;
+}
+
+p{
+
+text-align: center;
+padding: 10px;
+}
+
+input[type="text"]  {
+
+width: 100%;
+height: auto;
+padding: 10px;
+min-height: 40px;  /* Altura mínima da caixa de texto */
+max-height: 120px;
+box-sizing: border-box;
+border: 1px solid green;
+border-radius: 20px;
+text-align: left;
+overflow: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+}
+
+label{
+
+font-size: 20px;
+}
+
+.botao-enviar{
+
+background-color: white;
+color: black;
+padding: 1px 2px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+footer{
+
+padding: 300px;
+font-size: 20px;
+}
+    </style>
+
+
+<script>
+
+const messagesInput = document.getElementById('messagesInput');
+const SendButton = document.getElementById('SendButton');
+const messagesContainer = document.getElementById('messages');
+
+SendButton.addEventListener('click', sendMensage);
+
+function sendMensage(){
+
+    const messages = messagesInput.value.trim();
+    if (messages !== '') {
+        displayMessage(messages);
+        messagesInput.value = '';
+    }
+}
+
+function displayMessage(messages) {
+
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message-container');
+    messageElement.innerHTML = '<span>User:</span> ${message}';
+    messagesContainer.appendChild(messageElement);
+// Você pode adicionar o código para enviar a mensagem para o servidor ou armazená-la em um banco de dados aqui
+
+}
+
+
+</script>
+
+
+
     <header> <h1>Sala I</h1> </header>
        
-<div class="container">
+    <div class="login-container">
 
-    <div class="conteudo">
-
-        <div id="comentarios"></div>
-
-    </div>
-
-     <div class="caixa-texto">
-
-        <label for="texto">Type here</label>
-        <input type="text" id="texto" name="texto">
-        <button class="botao-enviar" onclick="enviarMensagem()">Send</button>
-
-        </div>
+        <div id="messages"></div>
+            <div>
+                    <input type="text" id="messagesInput" placeholder="Digite sua mensagem">
+                            <button id="SendButton">Enviar</button>
+            </div>
     </div>
 
         <footer>
