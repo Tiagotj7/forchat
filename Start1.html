@@ -17,7 +17,7 @@
                     <input type="text" id="username" name="username" required><br>
                 <label for="password">Password:</label><br>
                     <input type="password" id="password" name="password" required><br>
-                    
+
                     <input type="submit" value="Login">
 
         </form>
@@ -95,6 +95,18 @@
 
         return true;// Permite o envio do formulário
         
+    }
+
+    function TogglePasswordVisibility(){
+
+        var PasswordInput = document.getElementById("password")
+        if(PasswordInput.type === "password"){
+
+            PasswordInput.type = "text";
+        } else{
+
+            PasswordInput.type = "password";
+        }
     }
 
 </script>
