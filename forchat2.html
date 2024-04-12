@@ -3,106 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forchat2.css">
+    <script src="forchat2.js"></script>
     <title>Sala 2</title>
 </head>
 <body>
-    
-    <style>
-
-        body{
-
-            background-image: url(https://swall.teahub.io/photos/small/298-2986819_download-picture-of-a-green-forest-landscape-natural.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        html{
-
-            margin: 0;
-            padding: 0%;
-            height: 100%;
-        }
-
-        header{
-
-            color: white;
-            font-size: 70px;
-            text-align: center;
-        }
-
-        input[type="text"]{
-
-            background-color: transparent;
-            color: white;
-            border: transparent;
-            margin-top: 400px;
-            width: 100%;
-            height: auto;
-            padding: 10px;
-            box-sizing: border-box;
-            overflow: auto;
-            border-radius: 20px;
-
-        }
-
-        .input-container{
-
-            display: flex;
-
-        }
-
-        input[type="text"]::placeholder{
-
-            color: white;
-
-        }
-
-        button{
-
-            cursor: pointer;
-            margin-top: 10px;
-        }
-
-        footer{
-
-            color: white;
-            text-align: center;
-
-        }
-
-
-    </style>
-
-    <script>
-
-        const messagesInput = document.getElementById('messagesInput');
-        const SendButton = document.getElementById('SendButton');
-        const messagesContainer = document.getElementById('messages');
-
-        SendButton.addEventListener('click', sendMensage);
-
-        function sendMensage(){
-
-            const messages = messagesInput.value.trim();
-            if (messages !== '') {
-                displayMessage(messages);
-                messagesInput.value = '';
-            }
-        }
-
-        function displayMessage(messages) {
-
-            const messageElement = document.createElement('div');
-            messageElement.classList.add('message-container');
-            messageElement.innerHTML = '<span>User:</span> ${message}';
-            messagesContainer.appendChild(messageElement);
-// Você pode adicionar o código para enviar a mensagem para o servidor ou armazená-la em um banco de dados aqui
-
-        }
- 
-    </script>
-
-
 
     <header>ForChat II</header>
 
