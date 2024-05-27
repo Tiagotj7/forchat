@@ -10,7 +10,9 @@ function validateForm(){
         return false;// Impede o envio do formulário        
     }
 
-    return true;// Permite o envio do formulário
+    windows.location.href = "centro.html"
+
+    //return true;// Permite o envio do formulário
     
 }
 
