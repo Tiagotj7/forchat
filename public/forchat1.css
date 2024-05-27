@@ -11,20 +11,17 @@ html{
 margin: 0;
 padding: 0%;
 height: 100%;
-
 }
 
 header{
 
 text-align: center;
 font-size: 70px;
-
 }
 
 .container{
 
 display: flex;
-
 }
 
 button{
@@ -48,7 +45,6 @@ margin-top: 400px;
 background-color: transparent;
 color: white;
 
-
 }
 
 .input-container{
@@ -57,19 +53,15 @@ color: white;
     flex-direction: column-reverse;
     margin-left: 20px;
     align-items: flex-start;
-
 }
 
 footer{
 
 text-align: center;
 padding: 1px;
-
 }
 
 input[type="text"]::placeholder{
 
     color: white;
-
 }
-
