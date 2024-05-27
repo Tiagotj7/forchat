@@ -1,1 +1,0 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e4f773dd-ac28-434c-abc4-4ddc9335f7e8/deploy-status)](https://app.netlify.com/sites/forchat/deploys)
