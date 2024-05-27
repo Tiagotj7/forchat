@@ -3,8 +3,9 @@ body{
     background-image: url(https://swall.teahub.io/photos/small/298-2986819_download-picture-of-a-green-forest-landscape-natural.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100%;
+    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da janela de visualização */
+    margin: 0;
+    padding: 0;
 }
 
 html{
