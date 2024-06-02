@@ -12,6 +12,8 @@ function validateForm(){
 
     windows.location.href = "https://forchat.vercel.app/centro.html"
 
+    location.reload()
+
     //return true;// Permite o envio do formulário
     
 }
