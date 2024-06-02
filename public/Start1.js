@@ -10,11 +10,11 @@ function validateForm(){
         return false;// Impede o envio do formulário        
     }
 
-    windows.location.href = "https://forchat.vercel.app/centro.html"
+    windows.location.href = "https://forchat.vercel.app/centro.html";
 
     location.reload()
 
-    //return true;// Permite o envio do formulário
+    return false;  // Impede o envio do formulário, já que estamos redirecionando manualmente
     
 }
 
