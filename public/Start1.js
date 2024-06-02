@@ -12,7 +12,9 @@ function validateForm(){
 
     windows.location.href = "https://forchat.vercel.app/centro.html";
 
-    return false;  // Impede o envio do formulário, já que estamos redirecionando manualmente
+    location.reload();
+
+    //return false;  // Impede o envio do formulário, já que estamos redirecionando manualmente
     
 }
 
