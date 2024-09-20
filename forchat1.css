@@ -5,11 +5,14 @@ body, html{
     padding: 0;
 
 
-   /* background-image: url(url(src/wallpaper plano de fundo chat1.jpeg)); */
+    background-image: url(src/wallpaperforchat1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     color: white;
+
+
 
 }
 
