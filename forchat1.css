@@ -5,7 +5,7 @@ body, html{
     padding: 0;
 
 
-    background-image: url(https://i.etsystatic.com/14662970/r/il/96ca55/1147499552/il_fullxfull.1147499552_tk74.jpg);
+   /* background-image: url(url(src/wallpaper plano de fundo chat1.jpeg)); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,12 +28,7 @@ text-shadow:
 .container{
 
 display: flex;
-}
 
-button{
-
-    cursor: pointer;
-    margin-top: 10px;
 }
 
 input[type="text"]  {
@@ -46,6 +41,7 @@ max-height: 120px;
 box-sizing: border-box;
 border: 1px solid transparent;
 border-radius: 20px;
+border-color: black;
 overflow: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
 margin-top: 400px;
 background-color: transparent;
@@ -59,21 +55,36 @@ color: white;
     flex-direction: column-reverse;
     margin-left: 20px;
     align-items: flex-start;
-}
-
-footer{
-
-text-align: center;
-padding: 1px;
-text-shadow: 
-        -1px -1px 0 #000,  
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
 
 }
 
 input[type="text"]::placeholder{
 
     color: white;
+
 }
+
+/*------------------------------------*/
+
+.login-container button{
+
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+/*--------------Footer----------------*/
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 
+            -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    
+    }
