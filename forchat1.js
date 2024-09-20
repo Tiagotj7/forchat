@@ -1,4 +1,6 @@
-//Mensagem de alerta ao iniciar a pagina.
+//Mensagem de alerta ao iniciar a pagina.      
+
+/*
 
 alert("Aviso aos Usuários do Chat\n\nRespeito é essencial: não toleramos desrespeito, insultos ou comportamento inadequado.\nSiga as regras e leis: violações resultarão em banimento.\nObrigado por colaborar!");
 

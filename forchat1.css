@@ -4,7 +4,6 @@ body, html{
     margin: 0;
     padding: 0;
 
-
     background-image: url(src/wallpaperforchat1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,15 +11,23 @@ body, html{
     background-attachment: fixed;
     color: white;
 
-
-
 }
+
+/*----------------Header--------------------*/
 
 header{
 
-text-align: center;
-font-size: 70px;
-text-shadow: 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header h1{
+
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 
         -1px -1px 0 #000,  
         1px -1px 0 #000,
         -1px 1px 0 #000,
@@ -28,13 +35,17 @@ text-shadow:
 
 }
 
-.container{
+/*----------------Body--------------------*/
 
-display: flex;
+.input-container{
+
+    display: flex;  
+    align-items: center;
+    width: 100%;
 
 }
 
-input[type="text"]  {
+input[type="text"]{
 
 width: 100%;
 height: auto;
@@ -52,15 +63,6 @@ color: white;
 
 }
 
-.input-container{
-
-    display: flex;  
-    flex-direction: column-reverse;
-    margin-left: 20px;
-    align-items: flex-start;
-
-}
-
 input[type="text"]::placeholder{
 
     color: white;
@@ -68,6 +70,15 @@ input[type="text"]::placeholder{
 }
 
 /*------------------------------------*/
+
+.login-container{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .login-container button{
 
@@ -91,3 +102,4 @@ footer{
             1px 1px 0 #000;
     
     }
+
