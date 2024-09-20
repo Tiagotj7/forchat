@@ -1,4 +1,8 @@
-body{
+body, html{
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
 
     color: white;
     text-align: center;
@@ -6,9 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da janela de visualização */
-    margin: 0;
-    padding: 0;
+
 }
 
 header{
