@@ -42,28 +42,29 @@ header h1{
     display: flex;  
     align-items: center;
     width: 100%;
+    position: relative;
 
 }
 
-input[type="text"]{
+textarea{
 
 width: 100%;
-height: auto;
-padding: 10px;
-min-height: 40px;  /* Altura mínima da caixa de texto */
-max-height: 120px;
-box-sizing: border-box;
 border: 1px solid transparent;
 border-radius: 20px;
 border-color: black;
 overflow: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
-margin-top: 400px;
 background-color: transparent;
 color: white;
+resize: none;
+box-sizing: border-box;
+max-height: 200px;
+display: flex;
+text-align: start;
+overflow-y: auto;
 
 }
 
-input[type="text"]::placeholder{
+textarea::placeholder{
 
     color: white;
 
@@ -71,19 +72,13 @@ input[type="text"]::placeholder{
 
 /*------------------------------------*/
 
-.login-container{
-
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 .login-container button{
 
     border-radius: 10px;
     cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 10px;
 
 }
 
