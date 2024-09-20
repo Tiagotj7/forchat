@@ -6,7 +6,7 @@ body, html{
 
     color: white;
     text-align: center;
-    background-image: url('https://cdn.wallpapersafari.com/84/6/kJtjZR.jpg');
+    background-image: url(src/wallpaperindex.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
