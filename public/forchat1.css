@@ -1,12 +1,15 @@
-body{
+body, html{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
     background-image: url(https://i.etsystatic.com/14662970/r/il/96ca55/1147499552/il_fullxfull.1147499552_tk74.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
-    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da janela de visualização */
-    margin: 0;
-    padding: 0;
 
 }
 

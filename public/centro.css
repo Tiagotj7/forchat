@@ -1,14 +1,15 @@
-body{
-    
+body,  html{
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
     background-image: url(https://www.csslaval.ca/wp-content/uploads/2022/04/shutterstock_773697154-scaled.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Opcional, para melhorar a aparência ao rolar */
     color: white;
-    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da janela de visualização */
-    margin: 0;
-    padding: 0;
 
 }
 
